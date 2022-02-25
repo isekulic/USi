@@ -8,6 +8,15 @@ USi is trained on [Qulac](https://github.com/aliannejadi/qulac/) and [ClariQ](ht
 You can use USi for help in evaluation of any models for generating clarifying question on any dataset that has a information need (facet, topic) description (which are a lot of TREC-like collections).
 
 ### How to run
+Requirements:
+```
+pytorch
+transformers
+scikit-learn
+pytorch_lightning
+pandas
+```
+
 Download the pre-trained model [here](drive.google.com) and run predictions:
 ```
 python run.py --test_mode 1 \\
