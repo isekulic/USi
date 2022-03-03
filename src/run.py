@@ -95,7 +95,7 @@ if __name__=='__main__':
     parser.add_argument('--history_data', type=str, default='')
     parser.add_argument('--human_data', type=int, default=0)
     parser.add_argument('--just_qulac', type=int, default=0)
-    parser.add_argument('--qulac_json', type=str, default='../../qulac/data/qulac/qulac.json')
+    parser.add_argument('--qulac_json', type=str, default='../data/qulac.json')
     parser.add_argument('--double_head_gpt2', type=int, default=1, help="0 GPT2LMHeadModel or 1 GPT2DoubleHeadsModel")
 
     # SAMPLING HPARAMS
