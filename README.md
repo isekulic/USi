@@ -17,7 +17,7 @@ pytorch_lightning
 pandas
 ```
 
-Download the pre-trained model [here](drive.google.com) and run predictions:
+Download the pre-trained model [here](https://drive.google.com/drive/folders/11HgvOAXWGpNjg1NxBxOD_tFKkXuhJ7RS?usp=sharing) and run predictions:
 ```
 python run.py --test_mode 1 \\
               --test_ckp checkpoints/model_8.ckpt \\
@@ -33,7 +33,7 @@ You can find all the controllable parameters in `argparse` in `run.py`.
 Consistent multi-turn interactions proved difficult for USi. To foster further research on answering clarifying questions in multi-turn interactions, we release a novel multi-turn dataset aimed at constructing conversations with hpyothetical cases, where the clarifying question is repeated, off-topic, or simply ignores the context. 
 ![Screenshot 2022-02-24 at 19 36 34](https://user-images.githubusercontent.com/9115027/155594885-e1c0d041-b4af-48cc-9dff-72c7b27cabdf.png)
 
-Download the dataset, consisting of 1000 conversations up to the depth of 3, from [here](drive.google.com).
+Download the dataset, consisting of 1000 conversations up to the depth of 3, from [here](https://drive.google.com/drive/folders/11HgvOAXWGpNjg1NxBxOD_tFKkXuhJ7RS?usp=sharing).
 
 If you found this code or data useful, please cite:
 ```
